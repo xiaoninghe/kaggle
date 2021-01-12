@@ -24,7 +24,7 @@ Further steps could include trying a different architecture for the model, and s
 
 ## Website
 
-You can view this model in action on my [https://xiaoning.vercel.app/digit-recognizer](https://xiaoning.vercel.app/digit-recognizer)
+You can view this model in action on [https://xiaoning.vercel.app/digit-recognizer](https://xiaoning.vercel.app/digit-recognizer)
 
 This model's performance isn't well high on that website. I have a few hypotheses for this:
 * This model performs well on the validation set but it appears to not be so accurate on my website. Are there significance differences between the training data and the data captured from the HTML canvas? 
