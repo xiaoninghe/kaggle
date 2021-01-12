@@ -8,7 +8,7 @@ solution.py is a model trained from the MNIST dataset.
 
 ## Model
 
-This model is a 3-layer NN, with 2 128-node hidden layers and a 10 node output layer with sparse categorical cross entropy as the loss function. Model was trained over 34 iterations.
+This model is a 3-layer NN, with 2 128-node hidden layers and a 10-node output layer with sparse categorical cross entropy as the loss function. Model was trained over 34 iterations.
 
 I plotted the learning curve for this model with the MNIST validation set provided by Tensorflow Keras. Metrics:
 (training accuracy, training loss, validation accuracy, validation loss) = (0.9890, 0.0532, 0.9694,  0.2495)
