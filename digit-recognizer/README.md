@@ -12,7 +12,7 @@ This model is a 3-layer NN, with 2 128-node hidden layers and a 10-node output l
 
 I plotted the learning curve for this model with the MNIST validation set provided by Tensorflow Keras.
 
-Metrics: (training accuracy, training loss, validation accuracy, validation loss) = (0.9890, 0.0532, 0.9694,  0.2495)
+Final metrics: (training accuracy, training loss, validation accuracy, validation loss) = (0.9890, 0.0532, 0.9694,  0.2495)
 
 ![unregularized_graph](./img/noreg.png)
 
@@ -20,7 +20,7 @@ Metrics: (training accuracy, training loss, validation accuracy, validation loss
 
 This suggested there has been some overfitting in my model so I added a regularization parameter with value 8e-5.
 
-Metrics: (training accuracy, training loss, validation accuracy, validation loss = (0.9847, 0.0941, 0.9690, 0.2091)
+Final metrics: (training accuracy, training loss, validation accuracy, validation loss = (0.9847, 0.0941, 0.9690, 0.2091)
 
 ![regularized_graph](./img/reg.png)
 
